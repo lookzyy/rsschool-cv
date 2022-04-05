@@ -31,7 +31,16 @@ b {
   list-style-type: none;
 }
 
-
 .experience {
   list-style-type: none;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 40px;
+}
+
+footer img {
+  max-height: 100%;
 }
