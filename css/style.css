@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto+Mono:wght@100;200;300;400;500&family=Tinos:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap');
+
 
 * {
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Roboto Mono', monospace, sans-serif;
+  overflow-x: hidden;
 }
 
-.main {
+.main-div {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,20 +28,324 @@ b {
   color: rgb(46, 46, 46);
 }
 
-.info {
-  list-style-type: none;
-}
-
+.info,
 .experience {
   list-style-type: none;
 }
 
-.footer-div {
+footer {
+  width: 1215px;
+}
+
+.footer-nav {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
-  margin: 10px 40px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer img {
   max-height: 100%;
+}
+
+footer h2 {
+  color: black;
+  font-size: 2rem;
+}
+
+.code-box {
+  padding: 10px;
+  border: 2px;
+  border-radius: 5px;
+  background-color: rgb(32, 32, 32);
+}
+
+code {
+  font-family: Consolas;
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #9cdcfe;
+  text-indent: -25px;
+}
+
+.code-box .func-color {
+  color: #579dd6;
+}
+
+.code-box .scale-color {
+  color: #dcdcaa;
+}
+
+.code-box .return-color {
+  color: #c586c0;
+}
+
+.code-box .white-text,
+.white-text-1 {
+  color: #d4d4d4;
+}
+
+hr {
+  border: 0.5px solid #579dd6ad;
+}
+
+h1 a {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+  color: #3986df;
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+.skills-ul {
+  list-style-type: none;
+  margin-left: -35px;
+}
+
+i {
+  color: rgb(46, 46, 46);
+}
+
+.fab.fa-discord {
+  color: rgb(88, 101, 242);
+}
+
+.fa-brands.fa-html5 {
+  color: #e54e20
+}
+
+.fa-brands.fa-css3 {
+  color: #1471b6
+}
+
+.fa-brands.fa-js {
+  color: #e5a221
+}
+
+.languages-ul {
+  margin-left: -35px;
+}
+
+#Luka-Jokhadze {
+  font-size: 25px;
+  padding: 15px 0 30px 20px;
+}
+
+.mypic {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.mail,
+.cvtask {
+  font-weight: bold;
+}
+
+@media only screen and (max-width : 1215px) {
+  footer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width : 1168px) {
+  footer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width : 1068px) {
+  footer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width : 968px) {
+  footer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width : 868px) {
+  footer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  footer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width : 668px) {
+  footer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width : 568px) {
+  footer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width : 420px) {
+  footer {
+    width: 100%;
+  }
+
+  .footer-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  h1 a {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: #3986df;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    padding-left: 55px;
+  }
+}
+
+@media only screen and (max-width : 380px) {
+  footer {
+    width: 100%;
+  }
+
+  .footer-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  h1 a {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: #3986df;
+    font-size: 2.2rem;
+    letter-spacing: 3px;
+    padding-left: 35px;
+  }
+}
+
+
+@media only screen and (max-width : 330px) {
+  footer {
+    width: 100%;
+  }
+
+  .footer-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .mypic {
+    float: none;
+    padding-left: 90px;
+  }
+
+  #Luka-Jokhadze {
+    padding: 0 0 0 50px;
+  }
+
+  h1 a {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: #3986df;
+    font-size: 2.2rem;
+    letter-spacing: 3px;
+    padding-left: 1px;
+  }
+
+}
+
+@media only screen and (max-width : 293px) {
+  footer {
+    width: 100%;
+  }
+
+  .footer-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .mypic {
+    float: none;
+    padding-left: 70px;
+  }
+
+  #Luka-Jokhadze {
+    padding: 0 0 0 20px;
+  }
+
+  h1 a {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: #3986df;
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+}
+
+@media only screen and (max-width : 270px) {
+  footer {
+    width: 100%;
+  }
+
+  .footer-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .mypic {
+    float: none;
+    padding-left: 60px;
+  }
+
+  #Luka-Jokhadze {
+    padding: 0 0 0 20px;
+  }
+
+  h1 a {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: #3986df;
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+    padding-left: 15px;
+  }
 }
